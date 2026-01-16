@@ -1,4 +1,4 @@
-2️⃣ Safety Mechanisms
+## Safety Mechanisms
 
 1. Input Validation
 
