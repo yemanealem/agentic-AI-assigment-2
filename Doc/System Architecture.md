@@ -1,4 +1,4 @@
-1️⃣ System Architecture
+# System Architecture
 
 The system is a Retrieval-Augmented Generation (RAG) agent for the medical domain. It integrates external knowledge, an LLM, and safety checks.
 
