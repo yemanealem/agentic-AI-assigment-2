@@ -1,0 +1,29 @@
+
+--- ibuprofen ---
+Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID).
+It is commonly used to reduce pain, fever, and inflammation.
+Common side effects include nausea, dizziness, headache, and gastrointestinal discomfort.
+It should be taken with food to minimize stomach irritation.
+
+--- paracetamol ---
+Paracetamol (also called acetaminophen) is used to relieve mild to moderate pain and reduce fever.
+Side effects are rare but can include liver toxicity if overdosed.
+It is considered safe for most people when used within recommended doses.
+
+--- amoxicillin ---
+Amoxicillin is a commonly used antibiotic for bacterial infections.
+It may cause side effects like diarrhea, nausea, or rash.
+Patients allergic to penicillin should avoid taking amoxicillin.
+It should always be taken as prescribed to prevent antibiotic resistance.
+
+--- vitamin_d ---
+Vitamin D is important for bone health and calcium absorption.
+Deficiency can lead to weakened bones and increased risk of fractures.
+Common sources include sunlight, fortified foods, and supplements.
+Excessive vitamin D can lead to hypercalcemia.
+
+--- hypertension ---
+Hypertension (high blood pressure) is a common cardiovascular condition.
+Lifestyle changes such as diet, exercise, and reducing salt intake can help manage it.
+Some people may require medication such as ACE inhibitors or beta-blockers.
+Regular monitoring of blood pressure is important for overall health.
