@@ -43,3 +43,43 @@ Input validation for unsafe or malformed queries.
 Blocked keywords: ["prescribe", "diagnose", "kill", "suicide", "bomb"].
 
 Safe generation: LLM uses retrieved context only, and outputs are sanitized before returning.
+
+User Query
+│
+▼
+[Input Validation / Safety Check]
+│
+├─ If unsafe → Return warning to user (Blocked)
+│
+▼
+[Retrieval Module (RAG Retriever)]
+│
+├─ Uses Chroma Vector Store with embeddings
+│ - Embeddings generated from medical_docs.txt
+│ - Google Generative AI Embeddings (models/embedding-001)
+│
+▼
+[Top-K Relevant Document Chunks]
+│
+▼
+[LLM Module (Gemini - gemini-2.0-flash-exp)]
+│
+├─ Receives retrieved documents as context
+│
+├─ Generates initial response (Maker)
+│
+▼
+[Checker Module / Safety Mechanism]
+│
+├─ Checks answer for:
+│ • Accuracy (matches retrieved context)
+│ • Completeness
+│ • Safety (blocks unsafe instructions)
+│
+├─ If issues found → Refines response (optional)
+│
+▼
+[Final Response]
+│
+▼
+User Receives Answer
