@@ -1,0 +1,9 @@
+What is RAG?
+
+RAG stands for Retrieval-Augmented Generation.
+
+It is a technique used in AI and NLP where:
+
+Retrieval: The system first searches for relevant documents or information from a set of sources (like a database, documents, or knowledge base).
+
+Generation: Then, the system generates a response (like an answer or summary) based on the retrieved information.

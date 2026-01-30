@@ -1,0 +1,1 @@
+Agentic AI refers to artificial intelligence systems that act autonomously in an environment to achieve goals, rather than just passively responding to input. These systems are capable of perceiving their environment, reasoning, making decisions, and taking actions to fulfill specific objectives.
