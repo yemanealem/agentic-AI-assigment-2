@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="AI Governance Framework" id="AI-Governance">
+    <mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Title -->
+        <mxCell id="title" value="AI Governance Framework" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontColor=#1a1a1a;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="600" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Profit Layer -->
+        <mxCell id="profit" value="💰 Profit" style="rounded=1;fillColor=#ffd966;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="profit_text" value="Operational Efficiency\nMaximize Output" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="profit">
+          <mxGeometry x="0" y="0" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- People Layer -->
+        <mxCell id="people" value="👥 People" style="rounded=1;fillColor=#6fa8dc;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="people_text" value="Employee Safety\nCommunity Protection" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="people">
+          <mxGeometry x="0" y="0" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Planet Layer -->
+        <mxCell id="planet" value="🌍 Planet" style="rounded=1;fillColor=#93c47d;strokeColor=#000000;fontSize=16;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="planet_text" value="Environmental Protection\nSustainability" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;" vertex="1" parent="planet">
+          <mxGeometry x="0" y="0" width="180" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows -->
+        <mxCell id="arrow1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="profit" target="people">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="arrow2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" edge="1" parent="1" source="people" target="planet">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

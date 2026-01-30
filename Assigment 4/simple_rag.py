@@ -23,7 +23,7 @@ def compute_idf(documents_tokens):
     all_terms = set(term for doc in documents_tokens for term in doc)
     for term in all_terms:
         containing_docs = sum(1 for doc in documents_tokens if term in doc)
-        idf[term] = math.log((N + 1) / (containing_docs + 1)) + 1  # smoothing
+        idf[term] = math.log((N + 1) / (containing_docs + 1)) + 1 
     return idf
 
 def compute_tfidf(tf, idf):
@@ -58,7 +58,6 @@ for i in range(num_docs):
 # ---------- Step 2: Tokenize and vectorize ----------
 documents_tokens = [tokenize(doc) for doc in documents]
 
-# Compute IDF for all terms
 idf = compute_idf(documents_tokens)
 
 # Compute TF-IDF vectors for documents
@@ -83,6 +82,5 @@ if similarities:
     print(f"\nMost relevant document: {doc_names[max_index]}")
     print(f"Cosine similarity: {similarities[max_index]:.4f}")
     print("\nDocument content preview:")
-    print(documents[max_index][:500], "...")  # show first 500 chars
-else:
+    print(documents[max_index][:500], "...")  
     print("No valid documents were uploaded.")
